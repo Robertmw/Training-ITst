@@ -1,0 +1,14 @@
+<section class="timetable">
+	<div class="day" ng-repeat="list in taskList">
+		<p class="day-title">{{list.day}}</p>
+		<ul>
+			<li ng-repeat="task in list.tasks | filter: currentFilter | orderBy: 'start'">
+				<i class="fa fa-times card-close-icon" ng-click="delete()"></i>
+				<p class="title">{{task.title}}</p>
+				<p class="label">{{task.label}}</p>
+				<p class="time">{{task.start | convertHour}}</p>
+				<p class="time">{{task.end | convertHour}}</p>
+			</li>
+		</ul>
+	</div>
+</section>

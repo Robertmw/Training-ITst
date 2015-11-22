@@ -1,0 +1,37 @@
+<section class="add-event box-one" ng-show="toggleButton">
+	<form novalidate>
+		<div class="input-group col-8">
+			<input type="text" ng-model="task.title" placeholder="Event title">
+		</div>
+		<div class="input-group col-2">
+			<select ng-model="task.label">
+				<option value="">Event Type</option>
+				<option value="sport">Sport</option>
+				<option value="work">Work</option>
+				<option value="relaxing">Relaxing</option>
+			</select>
+		</div>
+		<div class="input-group col-3">
+			<input type="number" ng-model="task.start" placeholder="Start hour" min="1" max="24">
+		</div>
+		<div class="input-group col-3">
+			<input type="number" ng-model="task.end" placeholder="End hour" min="1" max="24">
+		</div>
+		<div class="input-group col-2">
+			<select ng-model="task.dayEvent">
+				<option value="">Day</option>
+				<option value="monday">Monday</option>
+				<option value="tuesday">Tuesday</option>
+				<option value="wednesday">Wednesday</option>
+				<option value="thursday">Thursday</option>
+				<option value="friday">Friday</option>
+				<option value="saturday">Saturday</option>
+				<option value="sunday">Sunday</option>
+			</select>
+		</div>
+		
+		<div class="col-2">
+		<span class="add-event-button" ng-click="createTask(task)">Add task</span>
+		</div>
+	</form>
+</section>

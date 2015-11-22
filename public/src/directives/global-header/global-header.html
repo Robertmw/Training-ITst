@@ -1,0 +1,15 @@
+<header>
+	<p class="add-event-button" ng-click="toggleAddEvent()">
+		<i class="fa fa-angle-down"></i>
+		Add event
+	</p>
+	<div class="events-button">
+		<label>{{currentFilter.title}}</label>
+		<ul>
+			<li ng-repeat="filter in filters"
+				ng-click="setFilter(filter)">
+					<p ng-class="{ 'selected' : filter.title == currentFilter.title }">{{filter.title}}
+			</li>
+		</ul>
+	</div>
+</header>

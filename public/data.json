@@ -1,0 +1,84 @@
+{
+	"filters": [
+		{
+			"title": "No filter",
+			"value": ""
+		},
+		{
+			"title": "Sport",
+			"value": "sport"
+		},
+		{
+			"title": "Work",
+			"value": "work"
+		},
+		{
+			"title": "Relaxing",
+			"value": "relaxing"
+		}
+	],
+	"taskList": [
+		{
+			"day": "Monday",
+			"tasks": [
+				{
+					"title": "Some title",
+					"label": "relaxing",
+					"start": "9",
+					"end": "10"
+				}
+			]
+		},
+		{
+			"day": "Tuesday",
+			"tasks": [
+				{
+					"title": "Some title",
+					"label": "work",
+					"start": "9",
+					"end": "10"
+				},
+				{
+					"title": "Some title",
+					"label": "sport",
+					"start": "9",
+					"end": "10"
+				}
+			]
+		},
+		{
+			"day": "Wednesday",
+			"tasks": [
+				{
+					"title": "Some title",
+					"label": "sport",
+					"start": "9",
+					"end": "10"
+				}
+			]
+		},
+		{
+			"day": "Thursday",
+			"tasks": []
+		},
+		{
+			"day": "Friday",
+			"tasks": [
+				{
+					"title": "Some title",
+					"label": "work",
+					"start": "9",
+					"end": "10"
+				}
+			]
+		},
+		{
+			"day": "Saturday",
+			"tasks": []
+		},
+		{
+			"day": "Sunday",
+			"tasks": []
+		}
+	]
+}

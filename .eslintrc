@@ -1,0 +1,14 @@
+{
+	"globals": {
+		"jQuery": true,
+		"$": true
+	},
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"parser": "babel-eslint",
+	"rules": {
+		"quotes": [1, "single"],
+	}
+}
