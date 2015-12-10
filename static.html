@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>My personal calendar</title>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="css/style.min.css">
+	
+</head>
+<body>
+	
+	<section class="container">
+		<header>
+			<p class="add-event-button">
+				<i class="fa fa-angle-down"></i>
+				Add event
+			</p>
+			<div class="events-button">
+				<label>No filter</label>
+				<ul>
+					<li><p style="selected">No filter</p></li>
+					<li><p>Sport</p></li>
+					<li><p>Work</p></li>
+					<li><p>Relaxing</p></li>
+				</ul>
+			</div>
+		</header>
+		<section class="add-event box-one">
+			<form>
+				<div class="input-group col-8">
+					<input type="text" placeholder="Event title">
+				</div>
+				<div class="input-group col-2">
+					<select>
+						<option value="">Event Type</option>
+						<option value="sport">Sport</option>
+						<option value="work">Work</option>
+						<option value="relaxing">Relaxing</option>
+					</select>
+				</div>
+				<div class="input-group col-3">
+					<input type="number"placeholder="Start hour" min="1" max="24">
+				</div>
+				<div class="input-group col-3">
+					<input type="number" placeholder="End hour" min="1" max="24">
+				</div>
+				<div class="input-group col-2">
+					<select>
+						<option value="">Day</option>
+						<option value="monday">Monday</option>
+						<option value="tuesday">Tuesday</option>
+						<option value="wednesday">Wednesday</option>
+						<option value="thursday">Thursday</option>
+						<option value="friday">Friday</option>
+						<option value="saturday">Saturday</option>
+						<option value="sunday">Sunday</option>
+					</select>
+				</div>
+				
+				<div class="col-2">
+					<span class="add-event-button">Add task</span>
+				</div>
+			</form>
+		</section>
+		<section class="timetable">
+			<div class="day">
+				<p class="day-title">Monday</p>
+				<ul>
+					<li>
+						<i class="fa fa-times card-close-icon"></i>
+						<p class="title">Some title</p>
+						<p class="label">relaxing</p>
+						<p class="time">9:00</p>
+						<p class="time">10:00</p>
+					</li>
+				</ul>
+			</div>
+			<div class="day">
+				<p class="day-title">Tuesday</p>
+				<ul>
+					<li>
+						<i class="fa fa-times card-close-icon"></i>
+						<p class="title">Some title</p>
+						<p class="label">work</p>
+						<p class="time">9:00</p>
+						<p class="time">10:00</p>
+					</li>
+					<li>
+						<i class="fa fa-times card-close-icon"></i>
+						<p class="title">Some title</p>
+						<p class="label">sport</p>
+						<p class="time">9:00</p>
+						<p class="time">10:00</p>
+					</li>
+				</ul>
+			</div>
+			<div class="day">
+				<p class="day-title">Wednesday</p>
+				<ul>
+					<li>
+						<i class="fa fa-times card-close-icon"></i>
+						<p class="title">Some title</p>
+						<p class="label">sport</p>
+						<p class="time">9:00</p>
+						<p class="time">10:00</p>
+					</li>
+				</ul>
+			</div>
+			<div class="day">
+				<p class="day-title">Thursday</p>
+				<ul>
+
+				</ul>
+			</div>
+			<div class="day">
+				<p class="day-title">Friday</p>
+				<ul>
+					<li>
+						<i class="fa fa-times card-close-icon"></i>
+						<p class="title">Some title</p>
+						<p class="label">work</p>
+						<p class="time">9:00</p>
+						<p class="time">10:00</p>
+					</li>
+				</ul>
+			</div>
+			<div class="day">
+				<p class="day-title">Saturday</p>
+				<ul>
+
+				</ul>
+			</div>
+			<div class="day">
+				<p class="day-title">Sunday</p>
+				<ul>
+
+				</ul>
+			</div>
+		</section>
+	</section>
+
+</body>
+</html>
